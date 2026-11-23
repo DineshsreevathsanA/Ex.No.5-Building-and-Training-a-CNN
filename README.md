@@ -7,14 +7,14 @@ Step 1: Import Libraries
 •	import tensorflow.keras for CNN layers and models
 •	import matplotlib.pyplot for visualisation
 •	to_categorical for one-hot encoding
-import tensorflow as tf
+import tensorflow as tf 
 from tensorflow.keras import datasets, layers, models
 from tensorflow.keras.utils import to_categorica
 import matplotlib.pyplot as plt
 import numpy as np
 
 Step 2: Load CIFAR-10 Dataset
-•	Training Set: 50,000 images
+•	Training Set: 50,000 images 
 •	Test Set: 10,000 images
 •	Classes: Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
 (X_train, y_train), (X_test, y_test) 
@@ -122,15 +122,5 @@ for i in range(5):
     <img width="554" height="396" alt="image" src="https://github.com/user-attachments/assets/81232b25-568e-4453-af4a-daa8ecb71eae" />
     <img width="554" height="299" alt="image" src="https://github.com/user-attachments/assets/d91e0a8a-5280-4886-8f58-2533d33104f2" />
     <img width="554" height="284" alt="image" src="https://github.com/user-attachments/assets/be9212f4-4e6e-4f71-b3f8-43a953665c83" />
-   ##  Conclusion:
+   ##  RESULT:
 Thus successfully implemented and trained a CNN to recognize objects across ten distinct categories using the CIFAR 10 dataset.
-
-
-
-
-
-
-
-
-
-
